@@ -1,0 +1,414 @@
+
+
+html{
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body{
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #9CA2A6;
+}
+
+h1{
+  font-size: 50px;
+  font-family: Book Antiqua;
+  padding: 20px;
+}
+
+.App {
+  text-align: center;
+  margin-left: 0;
+  float: right;  
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 8s linear;
+  /* animation: App-logo-spin infinite 8s alternate-reverse; */
+  height: 5vmin;
+  margin: 0%;
+}
+
+
+@keyframes App-logo-spin {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(320deg);
+  }
+}
+
+.App-header {
+  background-color: transparent;
+  /* min-height: 100vh; */
+  /* display: flex;
+  flex-direction: column; */
+  /* align-items: center;
+  justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Otsikko{
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  clear: both;
+  margin: 0; 
+}
+
+.nav_nw{
+  background-color: #041E40;
+  padding-top: 20px;
+}
+
+a.nav-link{
+  padding-top: 10px;
+  margin-right: 20px;
+  color: #f2f2f2 !important;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+footer{
+  background-color: #041E40;
+  color: white;
+  padding: 1px;
+  margin: 0px;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  line-height: 60px;
+  border-bottom-color: #041E40;
+}
+
+
+.block{
+  display:inline-block;
+}
+.kello{
+  text-align: center;
+  background: transparent;
+  padding: 20px;
+  margin-left: 40%;
+  margin-top: 50px;
+}
+
+
+.digital_tila{
+  float: right;
+}
+
+.Viestit-header{
+  padding-bottom: 15px;
+  color: black;
+  margin-top: 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+.Viestit-header h1{
+  font-size: 50px;
+  font-family: Book Antiqua;
+  padding: 30px;
+}
+
+
+.Kello_page{
+  background-image: url(./pics/wolf-1341881__480.jpg);
+  height: 80vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+button{
+  background: pink;
+  color: white;
+  border: pink;
+  padding: 5px;
+  min-width: 100px;
+  border-radius: 2px;
+  margin: 5px;
+  text-transform: uppercase;
+  color: #f2f2f2;
+  font-size: 16px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+button:hover{
+background-color: #041E40;
+}
+
+.viestit_page{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  width: 100%;
+  float: left;
+}
+
+/* .box1 {
+  position: absolute;
+  color: black;
+  border-collapse: collapse;
+  border: 1.5px solid black;
+  width: 80%;
+  align-items: center;
+  align-self: auto;
+  box-shadow: 2px 2px 8px #6fbede;
+}
+.box2 {
+  background-color: cornflowerblue;
+  width: 400px;
+  height: 450px;
+  float: left;
+} */
+.box3 {
+  width: 235px;
+  min-height: 200px;
+  margin: 10px 40% 15px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 2%;
+  text-align: center;
+}
+.box4 {
+  background-image: url(./pics/winter-260817__480.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+  min-height: 80vh;
+  text-align: center;
+  padding: 20px 200px;
+  border-radius: 0.2%;
+}
+
+h1{
+  font-size: 30px;
+  font-family: Book Antiqua;
+  padding: 10px;
+}
+
+#deletetbl{
+  margin-top: 30px;
+}
+
+#deletetbl tr:nth-child(even) {
+  background-color: #f2f2f2;
+  font-size: 12px;
+  font-style: oblique;
+  font-weight: bold;
+}
+#deletetbl tr:nth-child(odd) {
+  background-color: #f2f2f2;
+  font-size: 12px;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+input{
+  border-radius: 1%;
+
+}
+
+.analogikello {
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+table{
+  padding: 20px;
+  overflow-x: auto;
+  
+}
+
+th, td {
+  text-align: left;
+  padding: 5px;
+}
+
+th {
+  background-color: #041E40;
+
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+  color: black;
+}
+
+
+.title{
+  margin-left: 10px;
+}
+
+input[type="radio"] {
+  margin: 0 20px 0 0;
+}
+
+input[type="text"] {
+ border-radius: 2%;
+ margin: 4px;
+ text-align: center;
+ border: 1.5px solid #9CA2A6;
+ box-shadow: 2px 2px 8px #274659;
+}
+
+input::placeholder{
+  font-size: 12px;
+  font-style: oblique;
+  font-weight: bold;
+  color: #9CA2A6;
+}
+
+li:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+label {
+  display: flex;
+  text-align: left;
+  font-size: 12px;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  margin: 0 0 20px;
+  padding: 0;
+}
+
+i{
+  font-size: 25px;
+  color: pink;
+}
+
+.fa-angle-double-left{
+  color: #f2f2f2;
+  font-size: 16px;
+}
+.fa-angle-double-right{
+  color: #f2f2f2;
+  font-size: 16px;
+}
+
+i:hover{
+  color: #041E40;
+}
+
+@media screen and (max-width: 1025px) {
+  .Kello_page{
+    background-image: url(./pics/wolf-1341881__480.jpg);
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-position: 70% 30%;
+    background-repeat: no-repeat;
+    margin: 0;
+  }
+  .box3 {
+    width: 235px;
+    min-height: 200px;
+    margin: 10px 38% 15px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 2%;
+    text-align: center;
+  }
+  .box4 {
+    background-image: url(./pics/winter-260817__480.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    min-height: 80vh;
+    text-align: center;
+    padding: 20px 20px;
+    border-radius: 0.2%;
+    overflow-x: auto;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .Otsikko{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    clear: both;
+    margin: 0; 
+  }
+
+  .App-logo {
+    animation: App-logo-spin infinite 5s linear;
+    /* animation: App-logo-spin infinite 8s alternate-reverse; */
+    height: 7vmin;
+    margin: 0%;
+    
+  }
+
+  .kello{
+    text-align: center;
+    background: transparent;
+    padding: 20px;
+    margin-left: 100px;
+    margin-top: 0px;
+  }
+
+  .box3 {
+    width: 235px;
+    min-height: 200px;
+    margin: 10px 50px 15px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 2%;
+    text-align: center;
+  }
+  .box4 {
+    background-image: url(./pics/winter-260817__480.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    min-height: 80vh;
+    text-align: center;
+    padding: 20px 20px;
+    border-radius: 0.2%;
+    overflow-x: auto;
+  }
+
+  
+  @keyframes App-logo-spin {
+    from{
+      transform: rotate(0deg);
+    }
+    to{
+      transform: rotate(320deg);
+    }
+  }
+
+  .Kello_tila{
+    max-width: 100%;
+    float: left;
+    margin-left: 80px;
+  }
+  .digital_tila{
+    max-width: 100%;
+    float: right;
+   margin-right: 110px;
+  }
+}
