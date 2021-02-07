@@ -2,8 +2,8 @@
 
 ## What is the use of this Repo
 
-This Project is a Simple CRUD ReactJS Project which demonstrates the following
-1. Creating a Component in React
+This Project is a Simple CRUD ReactJS Project created with create.react-app. The project demonstrates the following
+1. Creating a Components in React
 2. Making HTTP calls
 3. Communicating between parent and child component
 4. Using Bootstrap along with React
@@ -23,11 +23,21 @@ Install all the npm packages. Go into the project folder and type the following 
 ```bash
 npm install
 ```
+Or
+
+```bash
+yarn install
+```
 
 In order to run the application Type the following command
 
 ```bash
 npm start
+```
+or
+
+```bash
+yarn start
 ```
 
 The Application Runs on **localhost:3000**
